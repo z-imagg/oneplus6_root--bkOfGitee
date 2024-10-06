@@ -18,7 +18,7 @@ twrp.zip推入手机： `adb push twrp-installer-3.7.0_11-0-enchilada.zip /sdcar
 
 Magisk.zip推入手机： `adb push Magisk-v27.0.apk /sdcard/Magisk-v27.0.zip`
 
-   备注 : `Magisk-v27.0.apk` == `Magisk-v27.0.zip`
+     备注 : `Magisk-v27.0.apk` == `Magisk-v27.0.zip`
 
 从adb进入fastboot：`adb reboot bootloader`
 
