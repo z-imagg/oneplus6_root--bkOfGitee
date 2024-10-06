@@ -41,3 +41,6 @@ https://github.com/topjohnwu/Magisk/releases/download/v27.0/Magisk-v27.0.apk
 
 
 
+#### twrp界面刷入`Magisk.zip`
+
+twrp界面 :  `Install`  --> 选择 `/sdcard/Magisk-v27.0.zip`  --> 按菜单提示刷入即可
