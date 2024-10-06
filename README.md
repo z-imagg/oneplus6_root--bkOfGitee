@@ -14,20 +14,30 @@ https://github.com/topjohnwu/Magisk/releases/download/v27.0/Magisk-v27.0.apk
 
 
 
-twrp.zip推入手机： `adb push twrp-installer-3.7.0_11-0-enchilada.zip /sdcard/`
+#### twrp.zip推入手机
 
-Magisk.zip推入手机： `adb push Magisk-v27.0.apk /sdcard/Magisk-v27.0.zip`
+ `adb push twrp-installer-3.7.0_11-0-enchilada.zip /sdcard/`
 
-   备注 : `Magisk-v27.0.apk` == `Magisk-v27.0.zip`
+#### Magisk.zip推入手机
 
-从adb进入fastboot：`adb reboot bootloader`
+ `adb push Magisk-v27.0.apk /sdcard/Magisk-v27.0.zip`
+
+ 备注 : `Magisk-v27.0.apk` == `Magisk-v27.0.zip`
+
+#### 从adb进入fastboot
+
+`adb reboot bootloader`
 
 
-临时进入twrp： `fastboot boot twrp-3.7.0_11-0-enchilada.img`
+#### 临时进入twrp
 
-~~在手机的twrp界面刷入 `/sdcard/twrp-installer-3.7.0_11-0-enchilada.zip` 即永久刷入twrp~~
+ `fastboot boot twrp-3.7.0_11-0-enchilada.img`
 
-推荐不永久刷入twrp， 每次都临时进入twrp
+#### ~~永久安装twrp: 在手机的twrp界面刷入twrp.zip~~
+
+ ~~`/sdcard/twrp-installer-3.7.0_11-0-enchilada.zip` 即永久安装twrp~~
+
+**推荐不永久刷入twrp， 每次都临时进入twrp**
 
 
 
