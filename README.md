@@ -59,4 +59,4 @@ root功能由Magisk提供
 Magisk界面 底部的 `超级用户` 即为`root权限使用记录`
 
 
-此时`adb device shell 'su ls /'` 可以正常使用root权限
+此时` adb shell 'su -c "ls /" ' ` 可以正常使用root权限
