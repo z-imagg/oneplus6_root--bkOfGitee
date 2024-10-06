@@ -48,3 +48,10 @@ twrp界面 :  `Install`  --> 选择 `/sdcard/Magisk-v27.0.zip`  --> 按菜单提
 twrp界面点击`Reboot` 以 重启手机进入android ， 已安装Magisk
 
 root功能由Magisk提供
+
+
+#### 按Magisk提示正常操作即可root
+
+进入android后 点击Magisk应用图片，按提示操作即可
+
+通常需要下载完整Magisk、还可能提示要修改boot.img, 都允许即可
