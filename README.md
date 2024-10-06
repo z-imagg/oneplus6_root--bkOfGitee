@@ -52,11 +52,11 @@ root功能由Magisk提供
 
 #### 按Magisk提示正常操作即可root
 
-进入android后 点击Magisk应用图片，按提示操作即可
+进入android后 ，在手机的android桌面上 打开Magisk应用，  
 
-通常需要下载完整Magisk、还可能提示要修改boot.img, 都允许即可
+通常提示 需要下载完整Magisk、还可能提示要修改boot.img, 按提示操作都允许即可
 
-在手机的android桌面上 打开Magisk应用， 底部的 `超级用户` 即使`root权限使用记录`
+Magisk界面 底部的 `超级用户` 即为`root权限使用记录`
 
 
 此时`adb device shell 'su ls /'` 可以正常使用root权限
