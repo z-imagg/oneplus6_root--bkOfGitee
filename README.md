@@ -55,3 +55,8 @@ root功能由Magisk提供
 进入android后 点击Magisk应用图片，按提示操作即可
 
 通常需要下载完整Magisk、还可能提示要修改boot.img, 都允许即可
+
+在手机的android桌面上 打开Magisk应用， 底部的 `超级用户` 即使`root权限使用记录`
+
+
+此时`adb device shell 'su ls /'` 可以正常使用root权限
